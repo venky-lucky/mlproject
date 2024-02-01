@@ -15,4 +15,13 @@ git pull
 5. create requiremnt.txt and setup.py (build an application on the package (meta data of project)- like recipe card for your Python project)
 6. create src folder and __init__.py 
 7. write meta data in setup.py and requiremnt.txt 
-git add .
+git add . & git commit -m "setup" & git push -u origin main
+
+--------------------------------------------------------------
+1. create components folder with
+data infection (data reading & spliting to train, test and validate)
+data transformation (data covertion like onehotencode, normalization ..etc)
+model trainer (model traning)
+2. create pipeline folder with
+testing pipepline
+predict pipeline
