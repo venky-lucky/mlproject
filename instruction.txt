@@ -1,0 +1,18 @@
+create a enviroment
+1. conda create -p venv python==3.8 -y
+ cls - to clear screen
+2. conda activate venv/
+3. echo "# mlproject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/venky-lucky/mlproject.git
+git config --global user.email venkateshmoturi79@gmail.com or git config --global user.name "venky-lucky"
+git push -u origin main
+4. create .gitignore file (a file is used to specify files and directories that should be ignored by Git)
+git pull
+5. create requiremnt.txt and setup.py (build an application on the package (meta data of project)- like recipe card for your Python project)
+6. create src folder and __init__.py 
+7. write meta data in setup.py and requiremnt.txt 
+git add .
